@@ -1,0 +1,7 @@
+a = str(input('Entre a complete name: ')).strip()
+print('In capital is: {}'.format(str.upper(a)))
+print('In smaller is: {}'.format(str.lower(a)))
+print('In total is: {}'.format(len(a) - a.count(" ")))
+print('{}'.format(a.find('k')))
+b = a.split()
+print('The first name is: {} and the number of letter is {}'.format(b[0], len(b[0])))

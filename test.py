@@ -1,0 +1,15 @@
+n = str(input('Enter your name: '))
+print('Your name in lower case: {}'.format(n.lower()))
+print("Your name in uppercase: {}".format(n.upper()))
+print(len(n))
+print(n.strip())
+print(len(n))
+print(n.split())
+s = n.split()
+print('Your first name is {} and it has{} letters'.format(s[0], len(s[0])))
+print(len(s[1]))
+print(len(s[2]))
+print(n.count(''))
+print('{} letters you have '.format(len(n)-n.count(' ')))
+
+
